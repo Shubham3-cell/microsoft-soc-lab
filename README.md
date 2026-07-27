@@ -13,6 +13,7 @@ Build an end-to-end Microsoft Security Operations Lab focused on:
 
 ## Planned Architecture
 
+```text
 Linux VM
     ↓
 Microsoft Sentinel
