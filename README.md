@@ -23,6 +23,7 @@ KQL Hunting Queries
 Analytics Rules
     ↓
 Incident Response
+```
 
 ## Repository Structure
 
@@ -31,6 +32,9 @@ Threat hunting and KQL queries
 
 /hunts
 Documented hunting scenarios
+
+...
+
 
 /detections
 Analytics Rules and Sigma Rules
