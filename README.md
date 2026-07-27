@@ -33,9 +33,6 @@ Threat hunting and KQL queries
 /hunts
 Documented hunting scenarios
 
-...
-
-
 /detections
 Analytics Rules and Sigma Rules
 
