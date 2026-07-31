@@ -120,3 +120,24 @@ SigninLogs
 2. Select required columns.
 3. Count sign-ins per user.
 4. Sort highest to lowest.
+## join
+
+Combines data from two tables.
+
+Example:
+
+```kql
+Costs
+| join kind=inner Consumption on MeterType
+```
+
+## sum
+
+Adds values together.
+
+Example:
+
+```kql
+Consumption
+| summarize TotalConsumed = sum(Consumed)
+```
